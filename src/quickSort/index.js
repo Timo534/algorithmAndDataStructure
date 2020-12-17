@@ -8,7 +8,7 @@ module.exports = function quickSort(arr, left = 0, right = arr.length - 1) {
   return arr
 }
 
-// arr = [5, 1, 0, 3, 4, 6, 7, 9]
+// arr = [5, 1, 0, 3, 1, 4, 6, 7, 9]
 
 function partition(arr, left, right) {
   let index = left + 1
