@@ -55,6 +55,7 @@ BFS(tree)
 
 // 深度遍历
 
+// D --> Data
 // 前序遍历
 let dlrResult = []
 const DLR = function (node) {

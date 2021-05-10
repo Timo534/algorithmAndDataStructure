@@ -9,7 +9,7 @@ function selectSort(arr) {
     temp = arr[i]
     arr[i] = arr[minIndex]
     arr[minIndex] = temp
-  }
+}
   return arr
 }
 
